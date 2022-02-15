@@ -12,7 +12,7 @@
                 time_wr += ((time_min<10)?"0":"")+time_min;
                 time_wr += ":";
                 time_wr += ((time_sec<10)?"0":"")+time_sec;
-                time_wr = " сегодня "+name_day[time.getDay()]+", "+time.getDate()+" "+name_month[time.getMonth()]+" "+time.getFullYear()+" г. время "+time_wr;
+                time_wr = "А сегодня "+name_day[time.getDay()]+", "+time.getDate()+" "+name_month[time.getMonth()]+" "+time.getFullYear()+" г. время "+time_wr;
             var obj_hours=document.getElementById("hours");
 	            obj_hours.innerHTML=time_wr;
         }
