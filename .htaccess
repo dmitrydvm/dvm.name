@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.dvm.name [NC]
+RewriteRule ^(.*)$ http://dvm.name/$1 [L,R=301]
